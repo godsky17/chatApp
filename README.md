@@ -72,8 +72,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
    ```bash
    php artisan serve
 
-   Ensuite ouvrer votre navigateur et lancer  le projet en suivant l\'addresse du projet.
-   http://localhost:8000
+Ensuite ouvrer votre navigateur et lancer  le projet en suivant l'addresse du projet.  http://localhost:8000
 
 5. **Se rendre sur sa branche de travaille**
    ```bash
