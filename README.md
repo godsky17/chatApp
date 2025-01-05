@@ -47,8 +47,8 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone https://github.com/nom-utilisateur/nom-projet.git
-   cd nom-projet
+   git clone [https://github.com/nom-utilisateur/nom-projet.git](https://github.com/godsky17/chatApp.git)
+   cd chatApp
 2. **Configuration de la base de donnee**
     Rendez-vous dans le fichier .env de votre projet laravel et configurer la connexion a la base de donnee de la maniere suivante :
    ```bash
