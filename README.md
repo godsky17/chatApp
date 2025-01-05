@@ -58,11 +58,12 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
    DB_DATABASE=chatapp_db
    DB_USERNAME=postgres
    DB_PASSWORD=postgres
+   ``
     
 
-    Ensuite allez dans le fichier config/database.php et modifier la ligne concernant la connexion par defaut a la base de donnee :
-    ```bash
-    'default' => env('DB_CONNECTION', 'pgsql'),
+   Ensuite allez dans le fichier config/database.php et modifier la ligne concernant la connexion par defaut a la base de donnee :
+   ```bash
+   'default' => env('DB_CONNECTION', 'pgsql'),
    
 3. **Migration de la base de donne**
    ```bash
