@@ -51,13 +51,13 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
    cd nom-projet
 2. **Configuration de la base de donnee**
     Rendez-vous dans le fichier .env de votre projet laravel et configurer la connexion a la base de donnee de la maniere suivante :
-    ```bash
-    DB_CONNECTION=pgsql
-    DB_HOST=127.0.0.1
-    DB_PORT=5432
-    DB_DATABASE=chatapp_db
-    DB_USERNAME=postgres
-    DB_PASSWORD=postgres
+   ```bash
+   DB_CONNECTION=pgsql
+   DB_HOST=127.0.0.1
+   DB_PORT=5432
+   DB_DATABASE=chatapp_db
+   DB_USERNAME=postgres
+   DB_PASSWORD=postgres
     
 
     Ensuite allez dans le fichier config/database.php et modifier la ligne concernant la connexion par defaut a la base de donnee :
@@ -76,7 +76,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
    http://localhost:8000
 
 5. **Se rendre sur sa branche de travaille**
-```bash
-git branch
-git switch nom_de_la_branche
+   ```bash
+   git branch
+   git switch nom_de_la_branche
 
